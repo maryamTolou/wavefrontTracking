@@ -1,0 +1,65 @@
+
+.service {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: #fff;
+}
+
+.top_layer {
+	position: relative;
+}
+
+.top_layer::before {
+	width: 0%;
+}
+
+.service .titlepage {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.service .titlepage h2 {
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #050303;
+	line-height: 46px;
+	border-bottom: #a20a0a solid 1px;
+	width: 410px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+.service .titlepage span {
+	color: # 3d3c3c;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.service .img-box {
+	text-align: center;
+}
+
+.service .img-box figure {
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.service .img-box a {
+	text-transform: uppercase;
+	border: #000 solid 1px;
+	background: #000;
+	width: 206px;
+	padding: 15px 0;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.service .img-box a:hover {
+	border: #a20a0a solid 1px;
+	background: #a20a0a;
+}
