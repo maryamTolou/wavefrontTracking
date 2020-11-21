@@ -72,7 +72,7 @@ $(function () {
 			loop: true,
 			margin: 10,
 			autoplay: true,
-			autoplayTimeout: 3000,
+			autoplayTimeout: 5000,
 			autoplayHoverPause: true
 		});
 	});
