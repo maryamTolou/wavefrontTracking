@@ -55,11 +55,11 @@
                         <nav class="main-menu">
                            <ul class="menu-area-main">
                               <li class="active"> <a href="index.html">Home</a> </li>
-                              <li> <a href="#vt" style="font-size:12px;">About VT </a> </li>
-                              <li> <a href="#method" style="font-size:12px;"> Method</a> </li>
-                              <li> <a href="#results" style="font-size:12px;">Status & Results</a> </li>
-                              <li> <a href="#future" style="font-size:12px;">Future work</a> </li>
-                              <li> <a href="#contact" style="font-size:12px;">Contact us</a> </li>
+                              <li> <a href="vt.html" style="font-size:12px;">About VT </a> </li>
+                              <li> <a href="method.html" style="font-size:12px;"> Method</a> </li>
+                              <li> <a href="results.html" style="font-size:12px;">Status & Results</a> </li>
+                              <li> <a href="future.html" style="font-size:12px;">Future work</a> </li>
+                              <li> <a href="index.html#contact" style="font-size:12px;">Contact us</a> </li>
                               <!-- <li class="mean-last"> <a href="#"><img src="images/search_icon.png" alt="#" /></a> </li> -->
                            </ul>
                         </nav>
@@ -84,7 +84,9 @@
                     <p>
                         As shown in the left image in figure one, the input to our tracking method are two consecutive wavefront movement frames. The trasnformer model will then
                         transform the first image to the second image and output the transformed image and the transformation matrix itself. The transformation matrix can be considered as tracking
-                        movement from time-step 1 in first frame and the second time-step in the next frame. 
+                        movement from time-step 1 in first frame and the second time-step in the next frame. To illustrate, if we are able to track the wavefront, we can easily 
+                        observe the anomalous behaviour around the channel and detect the VT origins. Finding the transformation of consecutive frames in wave movement video is exactly how we track
+                        the wavefront.
 
                     </p>
 
@@ -112,13 +114,13 @@
                 <ul>
                     <li>
                     </ul>
-                        <span style="font-size: 12px;"> <span style="font-weight:bold;">1:</span> </span>
+                     <span style="font-weight:bold;">1:</span> Particle tracking in unstructured, arbitrary polyhedral meshes for use in CFD and molecular dynamics (Macpherson et al, 2009)</span>
                     </li> 
                     <li>
-                        <span style="font-size: 12px;"><span style="font-weight:bold;">2:</span> </span>
+                     <span style="font-weight:bold;">2:</span> Estimation of Water Surface Flow Velocity in Coastal Video Imagery by Visual Tracking with Deep Learning (Kim & Kim, 2020)</span>
                     </li>
                     <li>
-                        <span style="font-size: 12px;"><span style="font-weight:bold;">3:</span>  </span>
+                     <span style="font-weight:bold;">3:</span> Unsupervised Learning for Fast Probabilistic Diffeomorphic Registration (Dalca et al, 2018)</span>
                     </li>
             </div>
             </div>
@@ -136,21 +138,25 @@
                <div class="row">
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
                      <div class="address">
-                        <h3>email</h3>
-                        <i><img src="icon/3.png">Locations</i>
+                        <h3>emails</h3>
+                        <i><img src="images/email.png"></i>
+                        <span style="color: white;">mt6129@rit.edu</span>
+                        <span style="color: white;">nk4856@rit.edu</span>
+                        
                      </div>
+                  </div>
+                  <div class=" col-md-6 col-sm-12 width" style="color:blanchedalmond">
+                     <p> This project is done by Nilesh kumar and Maryam Toloubidokhti. We are PhD students in the department of computing and information sciences at RIT and we work in Computational Biomedicine lab (CBL).
+                        We implemented this method as our project in 
+                        computational geometry class advised by Dr. Reynold Bailey.
+                        The VTrack method is an initial step towards our bigger goal to introduce a clinically meningfull framework for identifying the exact location of Ventricular Tachycardia. 
+                     </p>
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
                      <!-- <div class="address">
-                        <h3>Menus</h3>
-                        <i><img src="icon/2.png">Locations</i>
-                     </div> -->
-                  </div>
-                  <div class="col-lg-2 col-md-6 col-sm-12 width">
-                     <div class="address">
                         <h3>Useful Linkes</h3>
-                        <i><img src="icon/1.png">Locations</i>
-                     </div>
+                        <i><img src="icon/1.png"></i>
+                     </div> -->
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-12 width">
                      <!-- <div class="address">
@@ -177,6 +183,7 @@
             </div>
          </div>
       </footr>
+               
       <!-- end footer -->
       <!-- Javascript files--> 
       <script src="js/jquery.min.js"></script> 
